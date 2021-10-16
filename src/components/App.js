@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import Gallery from "./Gallery/Gallery";
-import SearchBar from "./SearchBar/SearchBar";
-import Modal from "./Modal/Modal";
-import Button from "./Button/Button";
-import Spinner from "./Spinner/Spinner";
+import Gallery from "./Gallery";
+import SearchBar from "./SearchBar";
+import Modal from "./Modal";
+import Button from "./Button";
+import Spinner from "./Spinner";
 import * as API from "../Api/API";
 import "../../src/App.css";
 import styles from "../components/Modal/Modal.module.css";
